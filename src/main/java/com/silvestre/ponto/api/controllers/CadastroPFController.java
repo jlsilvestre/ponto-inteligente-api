@@ -1,6 +1,5 @@
 package com.silvestre.ponto.api.controllers;
 
-import static org.mockito.Matchers.floatThat;
 
 import java.math.BigDecimal;
 import java.security.NoSuchAlgorithmException;
@@ -8,7 +7,6 @@ import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.hibernate.loader.plan.build.internal.CascadeStyleLoadPlanBuildingAssociationVisitationStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
